@@ -1,0 +1,79 @@
+body {
+  font-family: monospace;
+  font-size: 12px;
+  margin: auto;
+  width: 100%;
+  max-width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.header {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid black;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.doc-info {
+  margin-bottom: 10px;
+}
+
+.doc-info hr {
+  margin: -10px 0 3px 0;
+}
+
+.patient-info {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 5px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+.hide-col {
+  border: none;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  border-top: none;
+}
+
+.footer {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  max-width: 50%;
+  justify-content: space-between;
+}
+
+.signature-box {
+  width: 150px;
+}
+
+.nota-number {
+  margin-bottom: 10px;
+}
